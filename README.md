@@ -1,4 +1,3 @@
-Com base na inspiração fornecida e no que já discutimos, aqui está uma adaptação para o projeto "Perfume":
 
 ---
 
