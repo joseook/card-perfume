@@ -6,7 +6,7 @@ Com base na inspiração fornecida e no que já discutimos, aqui está uma adapt
 
 Este é um projeto dedicado à apresentação de um cartão de produto elegante para um perfume chamado "Gabrielle Essence Eau De Parfum". O design foi construído usando HTML e CSS e oferece uma visualização responsiva do produto, destacando suas características e preço.
 
-![Screenshot do Projeto Perfume](./img/screenshot-perfume.png)
+![Screenshot do Projeto Perfume](./source/img/project-img.png)
 
 ## Demonstração
 
