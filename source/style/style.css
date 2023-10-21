@@ -1,0 +1,192 @@
+body{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    background: var(--primaryColor02);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.container-card{
+    max-width: 1000px;
+    margin: auto;
+    padding: 3rem;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 8px 15px;
+    display: flex;
+}
+
+.container-card .container-img .img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.container-card .information-content{
+    text-align: left;
+    padding: 2rem;
+    gap: 5px;
+    background: var(--neutralColor03);
+}
+
+.information-content .container-titles .title01{
+    font-size: 1em;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:100;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+.information-content .container-titles .title02{
+    position: relative;
+    font-size: 3em;
+    text-align: start;
+    font-family: 'Fraunces', space;
+    top: 20px
+}
+
+.information-content .paragrafo-information{
+    position: relative;
+    top: 5em;
+    width: 100%;
+    height: auto;
+}
+
+.information-content .paragrafo-information .paragrafo{
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.1em;   
+}
+
+.information-content .price{
+    position: relative;
+    top: 10em;
+    left: 20px;
+    display: inline-flex;
+}
+
+.information-content .price .price-after{
+    position: relative;
+    font-size: 2.6em;
+    left: -20px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    color: var(--primaryColor);
+}
+
+.information-content .price .price-before{
+    text-decoration: line-through;
+}
+
+.information-content .btn-box{
+    position: relative;
+    top: 12em;
+    left: 10.2em;
+}
+
+.information-content .btn-box .btn{
+    background-color: transparent;
+    width: 200px;
+    height: 50px;
+    font-size: 1em;
+    font-weight: 700;
+}
+
+.information-content .btn-box .btn #icon-cart{
+    position: relative;
+    left: -10px;
+}
+
+.information-content .btn-box .btn:hover{
+    z-index: -1;
+    background: var(--primaryColor);
+    transition: all .5s ease-in;
+    transform: scaleY(-5px);
+    box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.8);
+    color: white;
+}
+
+@media (max-width: 768px) {
+    .container-card .container-img .img {
+        width: 100%;
+        height: auto;
+    }
+
+    .container-card .information-content {
+        padding: 1rem; 
+    }
+
+    .information-content .container-titles .title02 {
+        font-size: 2em; 
+        top: 10px; 
+    }
+
+    .information-content .paragrafo-information {
+        top: 2em; 
+    }
+
+    .information-content .price {
+        top: 5em;
+    }
+
+    .information-content .btn-box {
+        top: 6em; 
+        left: 0;
+        text-align: center; 
+    }
+}
+
+@media (max-width: 375px){
+    .container-card .container-img .img{
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+
+    }
+
+    .container-card .information-content {
+        padding: 1rem; 
+    }
+
+    .container-card{
+        margin: 0;
+        max-width: 500px;
+        justify-content: center;
+        align-content: center;
+        flex-direction: column;
+    }
+
+    .information-content .container-titles .title01{
+        font-size: .8em;
+        line-height: 1.4;
+    }
+
+    .information-content .container-titles .title02{
+        font-size: 1.4em;
+    }
+
+    .information-content .paragrafo-information .paragrafo{
+        font-size: .9em;
+    }
+
+    .information-content .price .price-after{
+        font-size: 1.4em;
+        position: relative;
+        top: -1.8em;
+    }
+
+    .information-content .price .price-before{
+        font-size: .8em;
+        position: relative;
+        top: -2.9em;
+    }
+
+    .information-content .btn-box {
+        top: 3.3em;    
+    }
+
+    .information-content .btn-box .btn{
+        width: 100%;
+        height: 35px;
+    }
+}

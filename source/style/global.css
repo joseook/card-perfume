@@ -1,0 +1,18 @@
+@import url(https://fonts.google.com/specimen/Montserrat);
+@import url(https://fonts.google.com/specimen/Fraunces);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+:root{
+    --primaryColor: hsl(158, 36%, 37%);
+    --primaryColor02: hsl(30, 38%, 92%);
+
+    --neutralColor: hsl(212, 21%, 14%);
+    --neutralColor02: hsl(228, 12%, 48%);
+    --neutralColor03: hsl(0, 0%, 100%);
+}
