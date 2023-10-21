@@ -12,8 +12,12 @@ body{
     max-width: 1000px;
     margin: auto;
     padding: 3rem;
-    box-shadow: rgba(0, 0, 0, 0.4) 0px 8px 15px;
     display: flex;
+}
+
+.container-card:hover{
+    transform: scale(1.05);
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 8px 15px;
 }
 
 .container-card .container-img .img{
